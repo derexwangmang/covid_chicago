@@ -1,0 +1,9 @@
+Public_Health_Statistics-_Diabetes_hospitalizations_in_Chicago__2000_-_2011.csv contains information about the number of hospitalizations related to diabetes, the crude rate, the lower bound crude rate, the upper bound crude rate, the adjusted crude rate, the lower bound adjusted crude rate, and the upper bound adjusted crude rate.
+- ZIP Code: ZIP code in format #####
+- Hospitalizations Year: Number of hospitalizations in a given year
+- Crude Rate Year: Estimate of the number of discharges divided the population per 10,000 residents in a given year
+- Crude Rate Year Lower CI: Lower bound of 95% CI estimate of crude rate
+- Crude Rate Year Upper CI: Upper bound of 95% CI estimate of crude rate
+- Adjusted Rate Year: Estimate of the hospitalization rate adjusted for age, allowing for comparison across populations
+- Adjusted Rate Year Lower CI: Lower bound of 95% CI estimate of adjusted rate
+- Adjusted Rate Year Upper CI: Upper bound of 95% CI estimate of adjusted rate

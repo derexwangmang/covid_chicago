@@ -1,0 +1,3 @@
+COVID-19_Testing_Sites.csv contains information about the number of testing sites within a given ZIP code.
+- ZIP Code: Contains a given ZIP code
+- n: Represents the number of testing sites within the given ZIP code

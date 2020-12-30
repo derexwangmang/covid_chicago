@@ -1,0 +1,6 @@
+median_income_ZIP.csv contains information about the median income within given ZIP codes, as well as the margin of error.
+- ZIP Code: ZIP code in format #####
+- NAME: "ZCTA5" followed by the ZIP code
+- variable: "medincome" for all rows
+- estimate: Estimate for the median income
+- moe: Margin of error, representing a 90% confidence interval

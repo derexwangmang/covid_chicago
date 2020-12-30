@@ -1,0 +1,12 @@
+COVID-19_ZIP_Before_Metric_Change.csv contains information about COVID data, separated by ZIP code and week. Note that all data come from before the City of Chicago made a change in their metric for testing.
+- ZIP Code: ZIP code in format #####
+- Week Number: Number of weeks since the beginning of 2020
+- Week Start: Date of the beginning of the week
+- Week End: Date of the end of the week
+- Cases - Weekly: Number of weekly cases
+- Cases - Cumulative: Total number of cases up to and including the current week
+- Case Rate - Weekly: Number of cases divided by population times 100,000
+- Tests - Weekly: Number of weekly tests
+- Tests - Cumulative: Total number of tests up to and including the current week
+- Percent Tested Positive - Weekly: Percentage of tests positive for COVID
+- Percent Tested Positive - Cumulative: Total percentage of positive tests up to and including the current week
