@@ -3,12 +3,12 @@ title: "Coronavirus EDA Executive Summary"
 subtitle: "Data Science I (STAT 301-1)"
 author: "Derex Wangmang"
 output:
+  pdf_document:
+    latex_engine: xelatex
   html_document:
     toc: true
     toc_float: true
     highlight: "tango"
-  pdf_document:
-    latex_engine: xelatex
 ---
 
 ```{r setup, include=FALSE}
@@ -36,7 +36,7 @@ med_income <- read_csv("data/processed/median_income_ZIP.csv")
 
 Combing these data with the original case data, I fitted trends whose lines were separated by the previous mentioned factors. With these, there were two significant patterns.
 
-1. The higher the income, the lower the rates. When examining the case and death rates across ZIP codes with varying incomes, I aggregated the data by income levels of 20000. The highest peaks were found in ZIP codes with the lowest incomes, and the lowest peaks in ZIP codes with the highest incomes. This may be a result of white collar work, where workers within those ZIP codes successfully transitioned to a work from environment. Their reduced contact with others may have led to decreased cases. Another potential reason is that those from the lowest income ZIP codes use public transportation to travel, which may expose them to more cases, whereas those from the wealthy population may have their own method of transportation.
+1. The higher the income, the lower the rates. When examining the case and death rates across ZIP codes with varying incomes, I aggregated the data by income levels of 20000. The highest peaks were found in ZIP codes with the lowest incomes, and the lowest peaks in ZIP codes with the highest incomes. This may be a result of white collar work, where workers within those ZIP codes successfully transitioned to a work from home environment. Their reduced contact with others may have led to decreased cases. Another potential reason is that those from the lowest income ZIP codes use public transportation to travel, which may expose them to more cases, whereas those from the wealthy population may have their own method of transportation.
 
 ```{r}
 cases_with_income <- cases %>%

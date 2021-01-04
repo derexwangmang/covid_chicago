@@ -1,15 +1,15 @@
 ---
 title: "Coronavirus EDA Memo"
-# subtitle: "Data Science I (STAT 301-1)"
+subtitle: "Data Science I (STAT 301-1)"
 author: "Derex Wangmang"
 output:
+  pdf_document:
+    latex_engine: xelatex
+    toc: yes
   html_document:
     toc: true
     toc_float: true
     highlight: "tango"
-  pdf_document:
-    latex_engine: xelatex
-    toc: yes
 ---
 
 ```{r setup, include=FALSE}
